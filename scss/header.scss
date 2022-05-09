@@ -1,0 +1,28 @@
+$color-primary: red;
+
+
+.home-header{
+    grid-area: header;
+    background-color: $color-primary;
+    text-align: center;
+
+    h1{
+        font-size: 100px;
+    } 
+    h2{
+        font-size: 80px;
+        animation-name: movimiento-uno;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes movimiento-uno{
+        50%{ 
+            color: white   }
+        75%{
+            color: grey;
+        }
+    }
+
+   
+}

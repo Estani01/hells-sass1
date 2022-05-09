@@ -1,0 +1,36 @@
+.home-header {
+  grid-area: header;
+  background-color: red;
+  text-align: center; }
+  .home-header h1 {
+    font-size: 100px; }
+  .home-header h2 {
+    font-size: 80px;
+    animation-name: movimiento-uno;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; }
+
+@keyframes movimiento-uno {
+  50% {
+    color: white; }
+  75% {
+    color: grey; } }
+
+.home-main img {
+  height: 650px; }
+
+.home-footer {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: bisque; }
+  .home-footer h2 {
+    font-size: 50px;
+    text-decoration: underline; }
+  .home-footer p {
+    font-size: 18px; }
+  .home-footer:hover {
+    background-color: bisque;
+    color: black; }

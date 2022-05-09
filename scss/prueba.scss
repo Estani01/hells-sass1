@@ -1,0 +1,37 @@
+@import "header";
+
+.home-main{
+    img{
+        height: 650px;
+    }
+}
+
+.home-footer{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: bisque;
+
+
+    h2{
+        font-size: 50px;
+        
+        text-decoration: underline;
+    
+    }
+    
+    p{
+        font-size: 18px;
+        
+    }
+
+    &:hover{
+        background-color: bisque;
+        color: black;
+    }
+    
+    
+}
+
+
